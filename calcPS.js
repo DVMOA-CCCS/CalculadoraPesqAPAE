@@ -1,5 +1,5 @@
 function calcularAmostra() {
-      const N = parseInt(document.getElementById("atendimentos").value);
+      const N = parseInt(document.getElementById("atendimentos").value)/4;
 
       if (isNaN(N) || N <= 0) {
         document.getElementById("amostra").innerText = "0";
